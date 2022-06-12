@@ -1,6 +1,14 @@
 import React from 'react'
+import Swal from 'sweetalert2'
 
 export const Contact = () => {
+const handleSubmit =(e )=>{
+  e.preventDefault()
+  Swal.fire('Sent','Thanks for sending your message, you will have a response as soon as I recieve you email', 'success')
+  console.log(e.target)
+
+}
+
   return (
     <div id="contact" className="text-center">
   <div className="container">
@@ -9,7 +17,7 @@ export const Contact = () => {
       <hr/>
     </div>
     <div className="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" noValidate>
+      <form onSubmit={handleSubmit} name="sentMessage" id="contactForm" noValidate>
         <div className="row">
           <div className="col-md-6">
             <div className="form-group">
@@ -33,7 +41,7 @@ export const Contact = () => {
       </form>
       <div className="social">
         <ul>
-          <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+          <li><a href="https://wa.me/522491787510?text=Buenos%20dias%2C%20Tienes%20tiempo%20para%20platicar%3F"><i className="fa fa-whatsapp"></i></a></li>
           <li><a href="#"><i className="fa fa-twitter"></i></a></li>
           <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
           <li><a href="#"><i className="fa fa-behance"></i></a></li>
