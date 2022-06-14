@@ -6,7 +6,7 @@ export const Header = () => {
 
 
   const name='Jesus Villa'
-  const profession = 'Web developer • Fronted • Not design'
+  const profession = 'Web developer • Frontend • Not design'
   return (
     <header id="header">
   <div className="intro">

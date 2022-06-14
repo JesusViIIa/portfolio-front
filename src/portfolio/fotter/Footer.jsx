@@ -5,7 +5,7 @@ export const Footer = () => {
     <div id="footer">
   <div className="container text-center">
     <div className="fnav">
-       <p>Designed by TemplateWire Distributed By: <a className="" href="https://htmltemplates.co" target="_blank">HTML Templates</a></p>
+       <p>Jose Jesus Villa Arreola <img style={{width:'1.5rem'}} src="img/ldark.ico" alt="" /> </p>
     </div>
   </div>
 </div>

@@ -6,23 +6,30 @@ export const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       title: 'Calendar',
-      img: 'img/portfolio/03-large.jpg',
+      img: 'img/portfolio/calendar.jpg',
       type: 'react',
-      url: '',
+      url: 'https://react-calentar-front.vercel.app/',
       built: 'React - Node'
     },
     {
-      title: 'Dashboard',
+      title: 'Journal',
+      img: 'img/portfolio/journal.jpg',
+      type: 'react',
+      url: 'https://journal-theta.vercel.app/',
+      built: 'React - Firebase'
+    },{
+      title: 'Soon...',
       img: 'img/portfolio/01-large.jpg',
       type: 'angular',
       url: '',
-      built: 'Angular- Node'
-    },{
-      title: 'Shop apllication',
-      img: 'img/portfolio/05-large.jpg',
-      type: 'react',
+      built: 'Building...'
+    },
+    {
+      title: 'Soon...',
+      img: 'img/portfolio/03-large.jpg',
+      type: 'backend',
       url: '',
-      built: 'React - Node'
+      built: 'Building...'
     },
 
   ]);
@@ -39,22 +46,22 @@ export const Portfolio = () => {
             <li>
               <ol className="type">
                 <li>
-                  <a href="#" data-filter="*" className="active">
+                  <a data-filter="*" className="active">
                     All
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".react">
+                  <a data-filter=".react">
                     React
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".angular">
+                  <a data-filter=".angular">
                     Angular
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".backend">
+                  <a data-filter=".backend">
                     Backend
                   </a>
                 </li>

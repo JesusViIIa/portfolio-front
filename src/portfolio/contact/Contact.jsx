@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 export const Contact = () => {
 const handleSubmit =(e )=>{
   e.preventDefault()
-  Swal.fire('Sent','Thanks for sending your message, you will have a response as soon as I recieve you email', 'success')
+  Swal.fire('Nothing here','I´m still working on it, if you want to communicate use whatsapp', 'info')
   console.log(e.target)
 
 }
@@ -42,9 +42,8 @@ const handleSubmit =(e )=>{
       <div className="social">
         <ul>
           <li><a href="https://wa.me/522491787510?text=Buenos%20dias%2C%20Tienes%20tiempo%20para%20platicar%3F"><i className="fa fa-whatsapp"></i></a></li>
-          <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i className="fa fa-behance"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/jos%C3%A9-jes%C3%BAs-villa-arreola-8339a6205/"><i className="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/JesusViIIa/"><i className="fa fa-github"></i></a></li>
         </ul>
       </div>
     </div>
